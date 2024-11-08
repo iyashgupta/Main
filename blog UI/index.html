@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+      
+        .main {
+            display: flex;
+            width:40%;
+            margin : auto;
+        }
+        .left-side {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            width: 30%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2em;
+        }
+        .right-side {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 70%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        .right-side h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em; /* Adjust as needed */
+    font-weight: 500;
+    color: #333;
+    margin: 0 0 10px;
+}
+        .right-side p {
+            margin: 0 0 20px;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+  
+        .main button {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .main button:hover {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+        }
+        .text-sm {
+    font-size: 0.9rem; /* 14px */
+    font-weight: 500;
+}
+
+.text-slate-500 {
+    color: #6b7280; /* Tailwind's slate-500 color */
+}
+
+    </style>
+</head>
+<body>
+   
+    <div class="main">
+        <div class="left-side">
+            <!-- <img src="https://via.placeholder.com/100" alt="Logo" height="200px"> -->
+        </div>
+        <div class="right-side">
+            <h2>My Blog</h2>
+            <p>Some blog content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis fugit id veniam saepe eum. error rerum quisquam, odit </p>
+            <button>View Blog</button>
+            <span class="text-sm text-slate-500">Generated 6 months ago</span>
+        </div>
+    </div>
+  
+</body>
+</html>
